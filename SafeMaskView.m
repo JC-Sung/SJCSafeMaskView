@@ -15,9 +15,9 @@
 
 @implementation SafeMaskView
 
-//+ (void)load{
-//    [self shareManager];
-//}
++ (void)load{
+    [self shareManager];
+}
 
 +(SafeMaskView *)shareManager{
     static SafeMaskView *instance = nil;
